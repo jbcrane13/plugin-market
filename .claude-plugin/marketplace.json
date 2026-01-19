@@ -7,7 +7,7 @@
   },
   "metadata": {
     "description": "Personal collection of Claude Code plugins for iOS/SwiftUI development and workflow automation",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -20,6 +20,17 @@
       "version": "1.0.0",
       "keywords": ["swiftui", "ios", "swift6", "swiftdata", "liquid-glass", "appium", "xcuitest", "cloudkit"],
       "category": "development"
+    },
+    {
+      "name": "dev-workflow",
+      "source": {
+        "source": "github",
+        "repo": "jbcrane13/dev-workflow"
+      },
+      "description": "Workflow orchestration for mobile and macOS development - manages TDD cycles, quality gates, visual verification, and context preservation. Enforces hard quality gates including mandatory visual verification with screenshots. Integrates with swiftui-dev for complete development lifecycle management.",
+      "version": "0.1.0",
+      "keywords": ["workflow", "orchestration", "tdd", "quality-gates", "mobile-development", "ios", "macos", "context-management", "session-management", "visual-verification"],
+      "category": "workflow"
     }
   ]
 }
