@@ -1,66 +1,145 @@
-# Agentic Development Marketplace
+<div align="center">
 
-Personal collection of Claude Code plugins for iOS/SwiftUI development and workflow automation.
+# 🚀 Agentic Development Marketplace
 
-## Installation
+**Personal collection of Claude Code plugins for iOS/SwiftUI development and workflow automation**
 
-Add this marketplace to Claude Code:
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Claude Code](https://img.shields.io/badge/Claude-Code-5A67D8)](https://claude.ai/code)
+[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/jbcrane13/plugin-market)
+
+[Installation](#-installation) • [Plugins](#-available-plugins) • [Requirements](#-requirements) • [License](#-license)
+
+</div>
+
+---
+
+## 📦 Installation
+
+Add this marketplace to Claude Code in one command:
 
 ```bash
 claude plugins:add-marketplace jbcrane13/plugin-market
 ```
 
-Or add directly from GitHub:
+Or using the slash command:
 
 ```bash
 /plugin marketplace add jbcrane13/plugin-market
 ```
 
-## Available Plugins
+## 🔌 Available Plugins
 
-| Plugin | Description | Version |
-|--------|-------------|---------|
-| [swiftui-dev](https://github.com/jbcrane13/swiftui-dev) | Comprehensive SwiftUI development toolkit for iOS 18+/macOS 15+ with Swift 6 patterns | 1.0.0 |
-| dev-workflow | Development workflow management with quality gates and verification | *Coming soon* |
+### [swiftui-dev](https://github.com/jbcrane13/swiftui-dev) `v1.0.0`
 
-## Installing Individual Plugins
+> Comprehensive SwiftUI development toolkit for iOS 18+/macOS 15+ with Swift 6 patterns, SwiftData, Liquid Glass support, and test automation
 
-Once the marketplace is added, install plugins with:
+**Features:**
+- ✅ **8 Commands** - `/new-app`, `/design`, `/plan`, `/audit`, `/build`, `/test`, `/screenshot`, `/simulator`
+- 🤖 **7 Agents** - Specialized agents for architecture, UI/UX design, SwiftData, CloudKit, and more
+- 📚 **5 Skills** - modern-apple-dev, xcode-build, ios-simulator, appium-xcuitest, cloudkit
+- 🎯 **Enforced Standards** - Swift 6 strict concurrency, @Observable patterns, accessibility identifiers
 
+**Keywords:** `swiftui` `ios` `swift6` `swiftdata` `liquid-glass` `appium` `xcuitest` `cloudkit`
+
+**Install:**
 ```bash
 /plugin install swiftui-dev@agentic-development-marketplace
 ```
 
-## Plugin Details
+---
 
-### swiftui-dev
+### [dev-workflow](https://github.com/jbcrane13/dev-workflow) `v0.1.0`
 
-Modern iOS 18+/macOS 15+ development toolkit featuring:
+> Workflow orchestration for mobile and macOS development - manages TDD cycles, quality gates, visual verification, and context preservation
 
-- **8 Commands**: `/new-app`, `/design`, `/plan`, `/audit`, `/build`, `/test`, `/screenshot`, `/simulator`
-- **7 Agents**: liquid-glass-expert, project-architect, architect-review, swiftdata-expert, cloudkit-expert, swiftui-ux-designer, mobile-code-implementer
-- **5 Skills**: modern-apple-dev, xcode-build, ios-simulator, appium-xcuitest, cloudkit
-- **Enforced Standards**: Swift 6 strict concurrency, @Observable patterns, accessibility identifiers
+**Features:**
+- 🔄 **TDD Cycle Management** - Automated test-driven development workflows
+- 🛡️ **Quality Gates** - Hard gates including mandatory visual verification with screenshots
+- 📸 **Visual Verification** - Screenshot-based UI validation for mobile apps
+- 🧠 **Context Management** - Session and state preservation across development cycles
+- 🔗 **Integration** - Works seamlessly with swiftui-dev for complete lifecycle management
 
-### dev-workflow
+**Keywords:** `workflow` `orchestration` `tdd` `quality-gates` `mobile-development` `ios` `macos` `context-management` `visual-verification`
 
-*Coming soon* - Development workflow management including:
+**Install:**
+```bash
+/plugin install dev-workflow@agentic-development-marketplace
+```
 
-- Session memory
-- Verification gates
-- Quality enforcement
-- TDD workflows
+---
 
-## Requirements
+## 💡 Quick Start
 
-- Claude Code CLI
-- macOS 15+ (for iOS development plugins)
-- Xcode 16+ with iOS 18+ SDK
+After installing the marketplace, explore available plugins:
 
-## Author
+```bash
+# List all marketplace plugins
+/plugin marketplace list
 
-Blake Crane ([@jbcrane13](https://github.com/jbcrane13))
+# Install a specific plugin
+/plugin install swiftui-dev@agentic-development-marketplace
 
-## License
+# View installed plugins
+/plugin list
+```
 
-MIT
+## 🎯 Use Cases
+
+### iOS/macOS Development
+The `swiftui-dev` plugin provides a complete toolkit for modern Apple platform development:
+- Generate new SwiftUI apps with best practices
+- Design UI/UX flows with specialized agents
+- Build and test with Xcode integration
+- Capture screenshots and manage simulators
+- Implement CloudKit and SwiftData persistence
+
+### Quality-Driven Workflows
+The `dev-workflow` plugin enforces rigorous development standards:
+- Test-driven development cycles
+- Automated quality gates before commits
+- Visual regression testing for mobile UIs
+- Context preservation across sessions
+- Integration with CI/CD pipelines
+
+## 🛠️ Requirements
+
+- **Claude Code CLI** - [Install here](https://claude.ai/code)
+- **macOS 15+** (for iOS development plugins)
+- **Xcode 16+** with iOS 18+ SDK
+- **Git** for version control
+
+## 📖 Documentation
+
+Each plugin includes comprehensive documentation:
+
+- [swiftui-dev Documentation](https://github.com/jbcrane13/swiftui-dev#readme)
+- [dev-workflow Documentation](https://github.com/jbcrane13/dev-workflow#readme)
+
+## 🤝 Contributing
+
+This is a personal plugin collection, but suggestions and feedback are welcome:
+
+1. Open an issue for bugs or feature requests
+2. Submit pull requests for improvements
+3. Share your experience using these plugins
+
+## 👨‍💻 Author
+
+**Blake Crane**
+- GitHub: [@jbcrane13](https://github.com/jbcrane13)
+- Email: jbcrane13@github.com
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<div align="center">
+
+**Built with ❤️ for the Claude Code community**
+
+[⬆ Back to top](#-agentic-development-marketplace)
+
+</div>
