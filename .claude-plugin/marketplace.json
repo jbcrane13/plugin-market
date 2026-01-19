@@ -1,0 +1,25 @@
+{
+  "name": "agentic-development-marketplace",
+  "owner": {
+    "name": "Blake Crane",
+    "email": "jbcrane13@github.com",
+    "url": "https://github.com/jbcrane13"
+  },
+  "metadata": {
+    "description": "Personal collection of Claude Code plugins for iOS/SwiftUI development and workflow automation",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "swiftui-dev",
+      "source": {
+        "source": "github",
+        "repo": "jbcrane13/swiftui-dev"
+      },
+      "description": "Comprehensive SwiftUI development toolkit for iOS 18+/macOS 15+ with Swift 6 patterns, SwiftData, Liquid Glass support, and test automation",
+      "version": "1.0.0",
+      "keywords": ["swiftui", "ios", "swift6", "swiftdata", "liquid-glass", "appium", "xcuitest", "cloudkit"],
+      "category": "development"
+    }
+  ]
+}
