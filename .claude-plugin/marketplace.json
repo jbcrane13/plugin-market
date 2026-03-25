@@ -31,6 +31,17 @@
       "version": "0.1.0",
       "keywords": ["workflow", "orchestration", "tdd", "quality-gates", "mobile-development", "ios", "macos", "context-management", "session-management", "visual-verification"],
       "category": "workflow"
+    },
+    {
+      "name": "ui-design",
+      "source": {
+        "source": "github",
+        "repo": "jbcrane13/ui-design-plugin"
+      },
+      "description": "Craft distinctive, visually striking UIs that avoid generic AI slop aesthetics. Covers web (React, HTML, Tailwind) and SwiftUI with opinionated guidance on typography, color, motion, and backgrounds.",
+      "version": "0.1.0",
+      "keywords": ["ui", "design", "aesthetics", "frontend", "swiftui", "react", "tailwind", "typography", "color"],
+      "category": "design"
     }
   ]
 }
