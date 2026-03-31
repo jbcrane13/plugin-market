@@ -7,7 +7,7 @@
   },
   "metadata": {
     "description": "Personal collection of Claude Code plugins for iOS/SwiftUI development and workflow automation",
-    "version": "1.2.0"
+    "version": "1.3.0"
   },
   "plugins": [
     {
@@ -42,6 +42,17 @@
       "version": "0.1.0",
       "keywords": ["ui", "design", "aesthetics", "frontend", "swiftui", "react", "tailwind", "typography", "color"],
       "category": "design"
+    },
+    {
+      "name": "ui-test",
+      "source": {
+        "source": "github",
+        "repo": "jbcrane13/ui-test"
+      },
+      "description": "XCUITest UI testing toolkit — accessibility ID auditing, UI test coverage generation, naming conventions, and automation scripts for Swift/SwiftUI apps.",
+      "version": "1.0.0",
+      "keywords": ["xcuitest", "ui-testing", "accessibility-identifiers", "swift", "swiftui", "xcode", "ios", "macos", "automation", "test-coverage"],
+      "category": "testing"
     }
   ]
 }
